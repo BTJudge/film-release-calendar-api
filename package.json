@@ -1,0 +1,32 @@
+{
+  "name": "film-release-calendar-api",
+  "version": "1.0.0",
+  "description": "Scrapes upcoming film releases from IMDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npx tsc",
+    "deploy": "npx serverless deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BTJudge/film-release-calendar-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BTJudge/film-release-calendar-api/issues"
+  },
+  "homepage": "https://github.com/BTJudge/film-release-calendar-api#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.36",
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "serverless": "^1.58.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "aws-lambda": "^0.1.2"
+  }
+}
